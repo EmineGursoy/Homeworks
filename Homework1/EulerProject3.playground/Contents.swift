@@ -1,5 +1,7 @@
 import UIKit
 
+//600851475143 sayisinin en büyük asal carpani
+
 var number = 13195, divider = 2
 var dividing = number
 var multipliers = [Int]()

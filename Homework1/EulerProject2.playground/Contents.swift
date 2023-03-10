@@ -1,5 +1,7 @@
 import UIKit
 
+//4 milyona kadar olan cift degerli fibonacci dizisi elemanlarinin toplami
+
 var a = 0, b = 1, border = 4000000, sum = 0, result = 0
 
 while b < border {

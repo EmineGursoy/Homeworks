@@ -1,5 +1,7 @@
 import UIKit
 
+//1000in altindaki 3e veya 5e tam bölünebilen sayilarin toplami
+
 var x = 0
 var sum = 0
 while x<1000 {
