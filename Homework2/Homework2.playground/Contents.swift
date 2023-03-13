@@ -92,7 +92,7 @@ func isDivisible(number: Int) -> Bool { //parametre olarak alinan sayi 1den 20ye
 }
 
 var currentNumber = 1
-while !isDivisible(number: currentNumber) { //isDivisible fonksiyonu true döndügü sürece sayi 1 arttirilir
+while !isDivisible(number: currentNumber) { //isDivisible fonksiyonu false döndügü sürece sayi 1 arttirilir
     currentNumber += 1
 }
 
