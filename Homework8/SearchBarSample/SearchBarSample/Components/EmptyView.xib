@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MGe-Oo-zkn">
+                    <rect key="frame" x="20" y="229" width="353" height="239"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="y8v-Mk-Q01">
+                            <rect key="frame" x="50" y="21" width="253" height="128"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemGray6Color"/>
+                    <constraints>
+                        <constraint firstItem="y8v-Mk-Q01" firstAttribute="top" secondItem="MGe-Oo-zkn" secondAttribute="top" constant="20" id="20o-2E-7T2"/>
+                        <constraint firstItem="y8v-Mk-Q01" firstAttribute="leading" secondItem="MGe-Oo-zkn" secondAttribute="leading" constant="50" id="CEx-LK-qFf"/>
+                        <constraint firstAttribute="trailing" secondItem="y8v-Mk-Q01" secondAttribute="trailing" constant="50" id="iLl-vy-ilx"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="MGe-Oo-zkn" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="IMe-VL-THJ"/>
+                <constraint firstItem="MGe-Oo-zkn" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="170" id="Lmk-ct-Kfa"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="MGe-Oo-zkn" secondAttribute="trailing" constant="20" id="WYa-Uz-aa0"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="MGe-Oo-zkn" secondAttribute="bottom" constant="350" id="drV-bs-dS8"/>
+            </constraints>
+            <point key="canvasLocation" x="156.4885496183206" y="-3.5211267605633805"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray6Color">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
